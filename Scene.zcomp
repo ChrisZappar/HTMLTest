@@ -1,0 +1,853 @@
+{
+	"animation": {
+		"clips": {
+			"10cd283c4ce54c8893543c77a013bbcf": {
+				"id": "10cd283c4ce54c8893543c77a013bbcf",
+				"length": 0,
+				"lengthType": "auto",
+				"name": "Visible",
+				"order": "a2",
+				"scriptName": "Visible",
+				"tracks": {
+				},
+				"type": "state"
+			},
+			"a3cdd767e57e4d27bda0c271b52ab31e": {
+				"id": "a3cdd767e57e4d27bda0c271b52ab31e",
+				"length": 0,
+				"lengthType": "auto",
+				"name": "On",
+				"order": "a4",
+				"scriptName": "On",
+				"tracks": {
+					"1cc344b4d2ba40bc9cdfc4fc3022eaf8": {
+						"blend": "overlay",
+						"entityID": "a093cc007782491cb1ca6a136817e7a9",
+						"id": "1cc344b4d2ba40bc9cdfc4fc3022eaf8",
+						"keyframes": {
+							"808a6e96b8f041be8ea3bd6148e405c7": {
+								"id": "808a6e96b8f041be8ea3bd6148e405c7",
+								"t": 0,
+								"v": false
+							}
+						},
+						"order": "Zw",
+						"property": [
+							"visible"
+						],
+						"type": "property",
+						"weight": {
+						}
+					},
+					"21a64a657e9b418aa2cce4f81a96fe68": {
+						"blend": "overlay",
+						"entityID": "ce94d374d0cb4eaa872f5d741223d622",
+						"id": "21a64a657e9b418aa2cce4f81a96fe68",
+						"keyframes": {
+							"adbd0259b6e94cd3a72cab1db6a3b26d": {
+								"id": "adbd0259b6e94cd3a72cab1db6a3b26d",
+								"t": 0,
+								"v": [
+									30,
+									"px"
+								]
+							}
+						},
+						"order": "a0",
+						"property": [
+							"bottom"
+						],
+						"type": "property",
+						"weight": {
+						}
+					},
+					"4ed00cca7c1a4ba482447c3147bf59f0": {
+						"blend": "overlay",
+						"entityID": "fe3d606a681b494bab8c8a1586ac7286",
+						"id": "4ed00cca7c1a4ba482447c3147bf59f0",
+						"keyframes": {
+							"3ec5f9af63a64dfcb13904dabd5b6d32": {
+								"id": "3ec5f9af63a64dfcb13904dabd5b6d32",
+								"t": 0,
+								"v": [
+									1,
+									1,
+									1
+								]
+							}
+						},
+						"order": "Zy",
+						"property": [
+							"scale"
+						],
+						"type": "property",
+						"weight": {
+						}
+					},
+					"50643f0045ba4f18936f57be4f7b1af8": {
+						"blend": "overlay",
+						"entityID": "02ddd7566f5b4eb09d6adccbcca53ce4",
+						"id": "50643f0045ba4f18936f57be4f7b1af8",
+						"keyframes": {
+							"e30c4d4f469046459259039e2e216919": {
+								"id": "e30c4d4f469046459259039e2e216919",
+								"t": 0,
+								"v": true
+							}
+						},
+						"order": "Zz",
+						"property": [
+							"placementMode"
+						],
+						"type": "property",
+						"weight": {
+						}
+					},
+					"c920d19bc5224498be1162ac90ac297a": {
+						"blend": "overlay",
+						"entityID": "1c9b10f87600420b95a41cab7cfc0eb0",
+						"id": "c920d19bc5224498be1162ac90ac297a",
+						"keyframes": {
+							"1bde3f2e78314653ba22ca7691a0f635": {
+								"id": "1bde3f2e78314653ba22ca7691a0f635",
+								"t": 0,
+								"v": [
+									-200,
+									"px"
+								]
+							}
+						},
+						"order": "Zx",
+						"property": [
+							"right"
+						],
+						"type": "property",
+						"weight": {
+						}
+					}
+				},
+				"type": "state"
+			},
+			"b474239eb82f41b3bb7aa5f5ab7382fe": {
+				"id": "b474239eb82f41b3bb7aa5f5ab7382fe",
+				"length": 0,
+				"lengthType": "auto",
+				"name": "Hidden",
+				"order": "a3",
+				"scriptName": "Hidden",
+				"tracks": {
+				},
+				"type": "state"
+			}
+		},
+		"curves": {
+		},
+		"layers": {
+			"927e27e383764dcb803f79e1bdc147e1": {
+				"clips": {
+					"7d259aca80944115829e8aa6a9354ddb": {
+						"clipId": "a3cdd767e57e4d27bda0c271b52ab31e",
+						"id": "7d259aca80944115829e8aa6a9354ddb",
+						"order": "a2",
+						"scriptName": "On0"
+					}
+				},
+				"defaultClip": "7d259aca80944115829e8aa6a9354ddb",
+				"defaultFadeParameters": {
+					"easing": "ease",
+					"pin": 0,
+					"reverse": false,
+					"time": 300
+				},
+				"enabled": true,
+				"id": "927e27e383764dcb803f79e1bdc147e1",
+				"name": "PlacementMode",
+				"order": "a2",
+				"scriptName": "PlacementMode"
+			}
+		}
+	},
+	"behaviors": {
+		"3918bc8a719d4e99bef5927338eae2be": {
+			"id": "3918bc8a719d4e99bef5927338eae2be",
+			"label": "testHTMLBehaviour",
+			"parent": {
+				"id": "9c05f15d563246ecb76604a5ccc88f78",
+				"order": "a0",
+				"scriptName": "testHTMLBehaviour"
+			},
+			"type": "./testHTMLBehaviour.ts#testHTMLBehaviour"
+		},
+		"6ed79af76d7d4ab9828f0b6d3ccedc0a": {
+			"id": "6ed79af76d7d4ab9828f0b6d3ccedc0a",
+			"parent": {
+				"id": "1c9b10f87600420b95a41cab7cfc0eb0",
+				"order": "a0"
+			},
+			"type": "@zcomponent/core/lib/behaviors/PlayLayerClip#PlayLayerClip"
+		},
+		"7633e6db9ca14c919d1c67d1d6f3fd88": {
+			"id": "7633e6db9ca14c919d1c67d1d6f3fd88",
+			"parent": {
+				"id": "ce94d374d0cb4eaa872f5d741223d622",
+				"order": "a0"
+			},
+			"type": "@zcomponent/core/lib/behaviors/SetLayerOff#SetLayerOff"
+		}
+	},
+	"constructorProps": {
+	},
+	"entitiesByLabel": {
+		"CSS": {
+			"0a38323b69594e998568baa4b2612f10": true
+		},
+		"CameraEnvironmentMap": {
+			"8cfafbf6de4a4576a4d0f90965423e85": true
+		},
+		"DefaultCookieConsent": {
+			"0ba8e27369df45ca897731dcb1e39bcf": true
+		},
+		"DefaultLoader": {
+			"52148d8eafe3426085e700e049662c07": true
+		},
+		"Defaults": {
+			"7b6fb4d895774174b5d151eec86b704c": true
+		},
+		"DirectionalLight": {
+			"857f9901b65b42c89a3ff04470d70738": true
+		},
+		"Div": {
+			"9c05f15d563246ecb76604a5ccc88f78": true
+		},
+		"Group": {
+			"root": true
+		},
+		"HTML": {
+			"a093cc007782491cb1ca6a136817e7a9": true
+		},
+		"HTML Place": {
+			"bb104a88ef844efbb787d7df63fc2c8e": true
+		},
+		"HTML Reset": {
+			"0ae69662f4d04889b1ba5d1925a2cf31": true
+		},
+		"InstantWorldTracker": {
+			"02ddd7566f5b4eb09d6adccbcca53ce4": true
+		},
+		"Place Button": {
+			"ce94d374d0cb4eaa872f5d741223d622": true
+		},
+		"Placement": {
+			"fe3d606a681b494bab8c8a1586ac7286": true
+		},
+		"Reset Button": {
+			"1c9b10f87600420b95a41cab7cfc0eb0": true
+		},
+		"ShadowPlane": {
+			"26855c66e5484b449401ca65edab4860": true
+		},
+		"ZapparCamera": {
+			"d056c264c3d345908a1345aeb612ed9d": true
+		},
+		"pulse.png": {
+			"5d85ff0a8b6048ad9462651a91e579e2": true
+		}
+	},
+	"entitiesByScriptName": {
+		"CSS": {
+			"0a38323b69594e998568baa4b2612f10": true
+		},
+		"CameraEnvironmentMap": {
+			"8cfafbf6de4a4576a4d0f90965423e85": true
+		},
+		"DefaultCookieConsent": {
+			"0ba8e27369df45ca897731dcb1e39bcf": true
+		},
+		"DefaultLoader": {
+			"52148d8eafe3426085e700e049662c07": true
+		},
+		"Defaults": {
+			"7b6fb4d895774174b5d151eec86b704c": true
+		},
+		"DirectionalLight": {
+			"857f9901b65b42c89a3ff04470d70738": true
+		},
+		"Div": {
+			"9c05f15d563246ecb76604a5ccc88f78": true
+		},
+		"HTML": {
+			"a093cc007782491cb1ca6a136817e7a9": true
+		},
+		"HTML_Place": {
+			"bb104a88ef844efbb787d7df63fc2c8e": true
+		},
+		"HTML_Reset": {
+			"0ae69662f4d04889b1ba5d1925a2cf31": true
+		},
+		"InstantWorldTracker": {
+			"02ddd7566f5b4eb09d6adccbcca53ce4": true
+		},
+		"Place_Button": {
+			"ce94d374d0cb4eaa872f5d741223d622": true
+		},
+		"Placement": {
+			"fe3d606a681b494bab8c8a1586ac7286": true
+		},
+		"Reset_Button": {
+			"1c9b10f87600420b95a41cab7cfc0eb0": true
+		},
+		"ShadowPlane": {
+			"26855c66e5484b449401ca65edab4860": true
+		},
+		"ZapparCamera": {
+			"d056c264c3d345908a1345aeb612ed9d": true
+		},
+		"pulse_png": {
+			"5d85ff0a8b6048ad9462651a91e579e2": true
+		}
+	},
+	"entityConstructorProps": {
+		"02ddd7566f5b4eb09d6adccbcca53ce4": {
+		},
+		"0a38323b69594e998568baa4b2612f10": {
+			"source": "file://./placement.css"
+		},
+		"0ae69662f4d04889b1ba5d1925a2cf31": {
+		},
+		"0ba8e27369df45ca897731dcb1e39bcf": {
+		},
+		"1c9b10f87600420b95a41cab7cfc0eb0": {
+			"innerText": "Reset"
+		},
+		"26855c66e5484b449401ca65edab4860": {
+		},
+		"3918bc8a719d4e99bef5927338eae2be": {
+		},
+		"52148d8eafe3426085e700e049662c07": {
+		},
+		"5d85ff0a8b6048ad9462651a91e579e2": {
+			"source": "file://./pulse.png"
+		},
+		"6ed79af76d7d4ab9828f0b6d3ccedc0a": {
+			"event": "onClick"
+		},
+		"7633e6db9ca14c919d1c67d1d6f3fd88": {
+			"event": "onClick"
+		},
+		"7b6fb4d895774174b5d151eec86b704c": {
+		},
+		"857f9901b65b42c89a3ff04470d70738": {
+		},
+		"8cfafbf6de4a4576a4d0f90965423e85": {
+		},
+		"9c05f15d563246ecb76604a5ccc88f78": {
+		},
+		"a093cc007782491cb1ca6a136817e7a9": {
+		},
+		"bb104a88ef844efbb787d7df63fc2c8e": {
+		},
+		"ce94d374d0cb4eaa872f5d741223d622": {
+			"innerText": "Place"
+		},
+		"d056c264c3d345908a1345aeb612ed9d": {
+			"activateAtStart": true
+		},
+		"fe3d606a681b494bab8c8a1586ac7286": {
+		}
+	},
+	"entityPropOverrides": {
+		"componentprop:prop:root:position": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"position"
+			],
+			"id": "componentprop:prop:root:position",
+			"isConstructorProp": false,
+			"propName": "position",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:rotation": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"rotation"
+			],
+			"id": "componentprop:prop:root:rotation",
+			"isConstructorProp": false,
+			"propName": "rotation",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:scale": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"scale"
+			],
+			"id": "componentprop:prop:root:scale",
+			"isConstructorProp": false,
+			"propName": "scale",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:visible": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"visible"
+			],
+			"id": "componentprop:prop:root:visible",
+			"isConstructorProp": false,
+			"propName": "visible",
+			"type": "componentprop"
+		}
+	},
+	"entityProps": {
+		"02ddd7566f5b4eb09d6adccbcca53ce4": {
+			"placementMode": false
+		},
+		"0a38323b69594e998568baa4b2612f10": {
+		},
+		"0ae69662f4d04889b1ba5d1925a2cf31": {
+			"anchor3D": false,
+			"horizontalAnchor": "right",
+			"verticalAnchor": "top"
+		},
+		"0ba8e27369df45ca897731dcb1e39bcf": {
+		},
+		"1c9b10f87600420b95a41cab7cfc0eb0": {
+			"classList": [
+				"placement-button"
+			],
+			"position": "relative",
+			"right": [
+				30,
+				"px"
+			],
+			"top": [
+				30,
+				"px"
+			]
+		},
+		"26855c66e5484b449401ca65edab4860": {
+		},
+		"3918bc8a719d4e99bef5927338eae2be": {
+		},
+		"52148d8eafe3426085e700e049662c07": {
+		},
+		"5d85ff0a8b6048ad9462651a91e579e2": {
+			"rotation": [
+				-1.5707963267948966,
+				0,
+				0
+			],
+			"scale": [
+				1.5466588566014983,
+				1.5466588566014983,
+				1.5466588566014983
+			]
+		},
+		"6ed79af76d7d4ab9828f0b6d3ccedc0a": {
+			"layerClip": "7d259aca80944115829e8aa6a9354ddb"
+		},
+		"7633e6db9ca14c919d1c67d1d6f3fd88": {
+			"layer": "927e27e383764dcb803f79e1bdc147e1"
+		},
+		"7b6fb4d895774174b5d151eec86b704c": {
+		},
+		"857f9901b65b42c89a3ff04470d70738": {
+			"castShadow": true,
+			"position": [
+				0,
+				3.822578351542651,
+				0
+			]
+		},
+		"8cfafbf6de4a4576a4d0f90965423e85": {
+		},
+		"9c05f15d563246ecb76604a5ccc88f78": {
+			"display": "block",
+			"left": [
+				-475,
+				"px"
+			],
+			"position": "absolute",
+			"top": [
+				-534,
+				"px"
+			]
+		},
+		"a093cc007782491cb1ca6a136817e7a9": {
+			"anchor3D": true,
+			"horizontalAnchor": "left",
+			"scale": [
+				0.1,
+				0.1,
+				0.1
+			],
+			"verticalAnchor": "top",
+			"visible": true
+		},
+		"bb104a88ef844efbb787d7df63fc2c8e": {
+			"anchor3D": false,
+			"verticalAnchor": "bottom"
+		},
+		"ce94d374d0cb4eaa872f5d741223d622": {
+			"bottom": [
+				-100,
+				"px"
+			],
+			"classList": [
+				"placement-button"
+			],
+			"position": "relative"
+		},
+		"d056c264c3d345908a1345aeb612ed9d": {
+		},
+		"fe3d606a681b494bab8c8a1586ac7286": {
+			"position": [
+				0,
+				0.007900372626997554,
+				0
+			],
+			"scale": [
+				0,
+				0,
+				0
+			]
+		},
+		"root": {
+			"position": [
+				-1.7761028621592283,
+				0,
+				0
+			]
+		}
+	},
+	"id": "5d4513e843574c04847bf1474912090f",
+	"nodes": {
+		"02ddd7566f5b4eb09d6adccbcca53ce4": {
+			"id": "02ddd7566f5b4eb09d6adccbcca53ce4",
+			"label": "InstantWorldTracker",
+			"parent": {
+				"id": "root",
+				"order": "Zz"
+			},
+			"scriptName": "InstantWorldTracker",
+			"type": "@zcomponent/zappar-three/lib/components/trackers/InstantWorldTracker#InstantWorldTracker"
+		},
+		"0a38323b69594e998568baa4b2612f10": {
+			"id": "0a38323b69594e998568baa4b2612f10",
+			"label": "CSS",
+			"parent": {
+				"id": "bb104a88ef844efbb787d7df63fc2c8e",
+				"order": "a1"
+			},
+			"scriptName": "CSS",
+			"type": "@zcomponent/html/lib/CSS#CSS"
+		},
+		"0ae69662f4d04889b1ba5d1925a2cf31": {
+			"id": "0ae69662f4d04889b1ba5d1925a2cf31",
+			"label": "HTML Reset",
+			"parent": {
+				"id": "root",
+				"order": "Zzl"
+			},
+			"scriptName": "HTML_Reset",
+			"type": "@zcomponent/three/lib/components/HTML#HTML"
+		},
+		"0ba8e27369df45ca897731dcb1e39bcf": {
+			"id": "0ba8e27369df45ca897731dcb1e39bcf",
+			"label": "DefaultCookieConsent",
+			"parent": {
+				"id": "7b6fb4d895774174b5d151eec86b704c",
+				"order": "a4"
+			},
+			"scriptName": "DefaultCookieConsent",
+			"type": "@zcomponent/core/lib/components/DefaultCookieConsent#DefaultCookieConsent"
+		},
+		"1c9b10f87600420b95a41cab7cfc0eb0": {
+			"id": "1c9b10f87600420b95a41cab7cfc0eb0",
+			"label": "Reset Button",
+			"parent": {
+				"id": "0ae69662f4d04889b1ba5d1925a2cf31",
+				"order": "a0"
+			},
+			"scriptName": "Reset_Button",
+			"type": "@zcomponent/html/lib/button#Button"
+		},
+		"26855c66e5484b449401ca65edab4860": {
+			"id": "26855c66e5484b449401ca65edab4860",
+			"label": "ShadowPlane",
+			"parent": {
+				"id": "02ddd7566f5b4eb09d6adccbcca53ce4",
+				"order": "a1"
+			},
+			"scriptName": "ShadowPlane",
+			"type": "@zcomponent/three/lib/components/meshes/ShadowPlane#ShadowPlane"
+		},
+		"52148d8eafe3426085e700e049662c07": {
+			"id": "52148d8eafe3426085e700e049662c07",
+			"label": "DefaultLoader",
+			"parent": {
+				"id": "7b6fb4d895774174b5d151eec86b704c",
+				"order": "Zp"
+			},
+			"scriptName": "DefaultLoader",
+			"type": "@zcomponent/core/lib/components/DefaultLoader#DefaultLoader"
+		},
+		"5d85ff0a8b6048ad9462651a91e579e2": {
+			"id": "5d85ff0a8b6048ad9462651a91e579e2",
+			"label": "pulse.png",
+			"parent": {
+				"id": "fe3d606a681b494bab8c8a1586ac7286",
+				"order": "a0"
+			},
+			"scriptName": "pulse_png",
+			"type": "@zcomponent/three/lib/components/Image#Image"
+		},
+		"7b6fb4d895774174b5d151eec86b704c": {
+			"id": "7b6fb4d895774174b5d151eec86b704c",
+			"label": "Defaults",
+			"parent": {
+				"id": "root",
+				"order": "a0"
+			},
+			"scriptName": "Defaults",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"857f9901b65b42c89a3ff04470d70738": {
+			"id": "857f9901b65b42c89a3ff04470d70738",
+			"label": "DirectionalLight",
+			"parent": {
+				"id": "7b6fb4d895774174b5d151eec86b704c",
+				"order": "Zq"
+			},
+			"scriptName": "DirectionalLight",
+			"type": "@zcomponent/three/lib/components/lights/DirectionalLight#DirectionalLight"
+		},
+		"8cfafbf6de4a4576a4d0f90965423e85": {
+			"id": "8cfafbf6de4a4576a4d0f90965423e85",
+			"label": "CameraEnvironmentMap",
+			"parent": {
+				"id": "root",
+				"order": "ZyV"
+			},
+			"scriptName": "CameraEnvironmentMap",
+			"type": "@zcomponent/zappar-three/lib/components/environments/CameraEnvironmentMap#CameraEnvironmentMap"
+		},
+		"9c05f15d563246ecb76604a5ccc88f78": {
+			"id": "9c05f15d563246ecb76604a5ccc88f78",
+			"label": "Div",
+			"parent": {
+				"id": "a093cc007782491cb1ca6a136817e7a9",
+				"order": "a0"
+			},
+			"scriptName": "Div",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"a093cc007782491cb1ca6a136817e7a9": {
+			"id": "a093cc007782491cb1ca6a136817e7a9",
+			"label": "HTML",
+			"parent": {
+				"id": "fe3d606a681b494bab8c8a1586ac7286",
+				"order": "a1"
+			},
+			"scriptName": "HTML",
+			"type": "@zcomponent/three/lib/components/HTML#HTML"
+		},
+		"bb104a88ef844efbb787d7df63fc2c8e": {
+			"id": "bb104a88ef844efbb787d7df63fc2c8e",
+			"label": "HTML Place",
+			"parent": {
+				"id": "root",
+				"order": "ZzV"
+			},
+			"scriptName": "HTML_Place",
+			"type": "@zcomponent/three/lib/components/HTML#HTML"
+		},
+		"ce94d374d0cb4eaa872f5d741223d622": {
+			"id": "ce94d374d0cb4eaa872f5d741223d622",
+			"label": "Place Button",
+			"parent": {
+				"id": "bb104a88ef844efbb787d7df63fc2c8e",
+				"order": "a0"
+			},
+			"scriptName": "Place_Button",
+			"type": "@zcomponent/html/lib/button#Button"
+		},
+		"d056c264c3d345908a1345aeb612ed9d": {
+			"id": "d056c264c3d345908a1345aeb612ed9d",
+			"label": "ZapparCamera",
+			"parent": {
+				"id": "root",
+				"order": "Zy"
+			},
+			"scriptName": "ZapparCamera",
+			"type": "@zcomponent/zappar-three/lib/components/cameras/Camera#ZapparCamera"
+		},
+		"fe3d606a681b494bab8c8a1586ac7286": {
+			"id": "fe3d606a681b494bab8c8a1586ac7286",
+			"label": "Placement",
+			"parent": {
+				"id": "02ddd7566f5b4eb09d6adccbcca53ce4",
+				"order": "a2"
+			},
+			"scriptName": "Placement",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"root": {
+			"id": "root",
+			"label": "Group",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		}
+	},
+	"preview": "@zcomponent/three/lib/preview#default",
+	"propEntityOverrides": {
+		"position": {
+			"root": {
+				"position": true
+			}
+		}
+	},
+	"props": {
+		"position": {
+			"comments": [
+				"The position, in 3D space, of this node relative to its parent. The three elements of the array correspond to the `x`, `y`, and `z` components of position."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "position",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"rotation": {
+			"comments": [
+				"The rotation, in three dimensions, of this node relative to its parent. The three elements of the array correspond to Euler angles - yaw, pitch and roll."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "rotation",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"scale": {
+			"comments": [
+				"The scale, in three dimensions, of this node relative to its parent. The three elements of the array correspond to scales in the the `x`, `y`, and `z` axis."
+			],
+			"default": [
+				1,
+				1,
+				1
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "scale",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"visible": {
+			"comments": [
+				"Determines if this object and its children are rendered to the screen."
+			],
+			"default": true,
+			"group": "Appearance",
+			"groupPriority": 11,
+			"name": "visible",
+			"type": {
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "boolean"
+			}
+		}
+	},
+	"root": "root"
+}

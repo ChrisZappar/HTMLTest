@@ -1,0 +1,9 @@
+.placement-button {
+    background: none;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    padding: 24px 60px;
+    border: none;
+    border-radius: 16px;
+}

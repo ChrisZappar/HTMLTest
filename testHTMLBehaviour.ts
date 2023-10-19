@@ -15,7 +15,7 @@ export class testHTMLBehaviour extends Behavior<Div> {
 	constructor(contextManager: ContextManager, instance: Div, protected constructorProps: ConstructionProps) {
 		super(contextManager, instance);
 
-		this.instance.element.innerHTML = `<iframe width="950" height="534" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Rick Astley - Never Gonna Give You Up (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`		/*
+		this.instance.element.innerHTML = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Rick Astley - Never Gonna Give You Up (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`		/*
 		// You can register handlers for events on the node that this behavior
 		// is attached to like this:
 

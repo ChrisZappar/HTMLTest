@@ -466,25 +466,38 @@
 		},
 		"9c05f15d563246ecb76604a5ccc88f78": {
 			"display": "block",
+			"height": [
+				300,
+				"px"
+			],
 			"left": [
-				-475,
+				-200,
 				"px"
 			],
 			"position": "absolute",
+			"right": [
+				0,
+				"px"
+			],
 			"top": [
-				-534,
+				-300,
+				"px"
+			],
+			"width": [
+				400,
 				"px"
 			]
 		},
 		"a093cc007782491cb1ca6a136817e7a9": {
 			"anchor3D": true,
-			"horizontalAnchor": "left",
+			"distanceFactor": 0.2,
+			"horizontalAnchor": "center",
 			"scale": [
-				0.1,
-				0.1,
-				0.1
+				1,
+				1,
+				1
 			],
-			"verticalAnchor": "top",
+			"verticalAnchor": "bottom",
 			"visible": true
 		},
 		"bb104a88ef844efbb787d7df63fc2c8e": {
